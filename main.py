@@ -12,3 +12,4 @@ print("Getting Upload Speed...")
 upload = wifi.upload()
 print(f"Upload: {upload}")
 
+print(f"Download speed: {dowload_result / 1024 / 1024:.2f}")
